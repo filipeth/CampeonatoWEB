@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Howdy!</title>
+    </head>
+    <body>
+        <h1>Campeonato WEBAPP!</h1>
+        <p>Digite o nome do campeonato: </p>
+        <form method="GET">
+                <input type="search" placeholder="Nome do Campeonato" name="nome">
+                <button>Enter</button>
+        </form>
+        <p>Campeonato: {{ nome }}</p>
+        <ol>
+  			<li><a href="/gerar_grupos/">Gerar grupos</a></li>
+  			<li><a href="/simular_grupos/">Simular partidas de grupo</a></li>
+  			<li><a href="/tabelas_grupos/">Visualizar tabelas</a></li>
+		</ol>
+        
+    </body>
+</html>
